@@ -80,7 +80,7 @@ ESLint-plugin-Meteor is licensed under the [MIT License](http://www.opensource.o
 [deps-url]: https://david-dm.org/dferber90/eslint-plugin-meteor
 [deps-image]: https://img.shields.io/david/dev/dferber90/eslint-plugin-meteor.svg?style=flat-square
 
-[coverage-url]: https://coveralls.io/r/dferber90/eslint-plugin-meteor?branch=master
+[coverage-url]: https://coveralls.io/github/dferber90/eslint-plugin-meteor?branch=master
 [coverage-image]: http://img.shields.io/coveralls/dferber90/eslint-plugin-meteor/master.svg?style=flat-square
 
 [climate-url]: https://codeclimate.com/github/dferber90/eslint-plugin-meteor
