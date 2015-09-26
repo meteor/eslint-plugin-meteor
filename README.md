@@ -38,7 +38,8 @@ Finally, enable all of the rules that you would like to use.
 {
   "rules": {
     "meteor/no-session": 1,
-    "meteor/no-blaze-lifecycle-assignment": 2
+    "meteor/no-blaze-lifecycle-assignment": 2,
+    "meteor/no-blaze-zero-timeout": 2
   }
 }
 ```
@@ -47,6 +48,7 @@ Finally, enable all of the rules that you would like to use.
 
 * [no-session](docs/rules/no-session.md): Prevent usage of Session
 * [no-blaze-lifecycle-assignment](docs/rules/no-blaze-lifecycle-assignment.md): Prevent deprecated template lifecycle callback assignments
+* [no-zero-timeout](docs/rules/no-zero-timeout.md): Prevent usage of Meteor.setTimeout with zero delay
 
 ## To Do
 

@@ -1,4 +1,4 @@
-# Prevents usage of Meteor.setTimeout with zero delay (no-zero-timeout)
+# Prevent usage of Meteor.setTimeout with zero delay (no-zero-timeout)
 
 `Meteor.setTimeout` can be used to defer the execution of a function, but Meteor has a built-in method for deferring called `Meteor.defer`. It is better to use the dedicated method instead of relying on a side-effect of `Meteor.setTimeout`.
 
