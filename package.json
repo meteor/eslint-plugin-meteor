@@ -40,6 +40,9 @@
     "eslintplugin",
     "meteor"
   ],
+  "release": {
+    "branch": "master"
+  },
   "license": "MIT",
   "contributors": []
 }
