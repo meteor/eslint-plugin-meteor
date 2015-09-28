@@ -29,7 +29,7 @@
   "devDependencies": {
     "babel": "5.8.23",
     "coveralls": "2.11.4",
-    "cz-conventional-changelog": "1.0.1",
+    "cz-conventional-changelog": "1.1.2",
     "eslint": "1.5.1",
     "babel-eslint": "4.1.3",
     "ghooks": "0.3.2",
