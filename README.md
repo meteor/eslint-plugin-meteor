@@ -1,6 +1,8 @@
 ESLint-plugin-Meteor
 ===================
 
+[![Join the chat at https://gitter.im/dferber90/eslint-plugin-meteor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dferber90/eslint-plugin-meteor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Maintenance Status][status-image]][status-url]
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
