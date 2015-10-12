@@ -14,14 +14,14 @@ import {
   UNIVERSAL,
   NON_METEOR
 } from '../../../dist/util/environment.js'
-var rule = require('../../../dist/rules/blaze-consistent-eventmap-parameters')
-var RuleTester = require('eslint').RuleTester
+const rule = require('../../../dist/rules/blaze-consistent-eventmap-parameters')
+const RuleTester = require('eslint').RuleTester
 
 // -----------------------------------------------------------------------------
 // Tests
 // -----------------------------------------------------------------------------
 
-var ruleTester = new RuleTester()
+const ruleTester = new RuleTester()
 ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: CLIENT})), {
 
   valid: [
