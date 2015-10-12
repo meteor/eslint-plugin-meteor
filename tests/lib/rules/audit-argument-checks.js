@@ -7,15 +7,15 @@
 // Requirements
 // -----------------------------------------------------------------------------
 
-var rule = require('../../../dist/rules/audit-argument-checks')
-var RuleTester = require('eslint').RuleTester
+const rule = require('../../../dist/rules/audit-argument-checks')
+const RuleTester = require('eslint').RuleTester
 
 
 // -----------------------------------------------------------------------------
 // Tests
 // -----------------------------------------------------------------------------
 
-var ruleTester = new RuleTester()
+const ruleTester = new RuleTester()
 ruleTester.run('audit-argument-checks', rule(), {
 
   valid: [
@@ -101,6 +101,18 @@ ruleTester.run('audit-argument-checks', rule(), {
               check(bar, Meteor.any)
             }
           }
+        })
+      `,
+      errors: [{
+        message: 'bar is not checked',
+        type: 'Identifier'
+      }],
+      parser: 'babel-eslint'
+    },
+    {
+      code: `
+        Meteor.methods({
+          foo: (bar) => 2
         })
       `,
       errors: [{
