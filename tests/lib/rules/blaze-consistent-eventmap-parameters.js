@@ -11,8 +11,7 @@
 
 import {
   CLIENT,
-  UNIVERSAL,
-  NON_METEOR
+  UNIVERSAL
 } from '../../../dist/util/environment.js'
 const rule = require('../../../dist/rules/blaze-consistent-eventmap-parameters')
 const RuleTester = require('eslint').RuleTester
@@ -22,7 +21,7 @@ const RuleTester = require('eslint').RuleTester
 // -----------------------------------------------------------------------------
 
 const ruleTester = new RuleTester()
-ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: CLIENT})), {
+ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: CLIENT, isLintedEnv: true})), {
 
   valid: [
     `
@@ -125,7 +124,7 @@ ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: CLIENT}
 
 })
 
-ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: UNIVERSAL})), {
+ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: UNIVERSAL, isLintedEnv: true})), {
 
   valid: [
     `
@@ -177,7 +176,7 @@ ruleTester.run('blaze-consistent-eventmap-parameters', rule(() => ({env: UNIVERS
 
 })
 
-ruleTester.run('pubsub', rule(() => ({env: NON_METEOR})), {
+ruleTester.run('pubsub', rule(() => ({isLintedEnv: false})), {
   valid: [
     'foo()'
   ],
