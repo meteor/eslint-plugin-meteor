@@ -1,14 +1,18 @@
 ESLint-plugin-Meteor
 ===================
 
-[![Maintenance Status][status-image]][status-url]
-[![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Dependency Status][deps-image]][deps-url]
 [![Coverage Status][coverage-image]][coverage-url]
 [![Code Climate][climate-image]][climate-url]
+[![Dependency Status][deps-image]][deps-url]
+
+[![Join the chat at https://gitter.im/dferber90/eslint-plugin-meteor][gitter-image]][gitter-url]
+[![Maintenance Status][status-image]][status-url]
 [![semantic-release][semantic-release-image]](semantic-release)
 [![Commitizen friendly][commitizen-image]](commitizen)
+
+[![NPM version][npm-image]][npm-url]
+[![NPM downloads][npm-downloads-image]][npm-url]
 
 
 Meteor specific linting rules for ESLint
@@ -51,7 +55,7 @@ Finally, enable all of the rules that you would like to use.
   "rules": {
     "meteor/no-session": 2,
     "meteor/no-blaze-lifecycle-assignment": 2,
-    "meteor/no-blaze-zero-timeout": 2,
+    "meteor/no-zero-timeout": 2,
     "meteor/audit-argument-checks": 2,
     "meteor/core": 2,
     "meteor/pubsub": 2
@@ -89,8 +93,12 @@ This plugin is inspired by [eslint-plugin-react](https://github.com/yannickcr/es
 ESLint-plugin-Meteor is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
 
+[gitter-image]: https://img.shields.io/badge/gitter-chat-e10079.svg?style=flat-square
+[gitter-url]: https://gitter.im/dferber90/eslint-plugin-meteor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
 [npm-url]: https://npmjs.org/package/eslint-plugin-meteor
 [npm-image]: http://img.shields.io/npm/v/eslint-plugin-meteor.svg?style=flat-square
+[npm-downloads-image]: https://img.shields.io/npm/dt/eslint-plugin-meteor.svg?style=flat-square
 
 [travis-url]: https://travis-ci.org/dferber90/eslint-plugin-meteor
 [travis-image]: http://img.shields.io/travis/dferber90/eslint-plugin-meteor/master.svg?style=flat-square
@@ -105,10 +113,10 @@ ESLint-plugin-Meteor is licensed under the [MIT License](http://www.opensource.o
 [climate-image]: http://img.shields.io/codeclimate/github/dferber90/eslint-plugin-meteor.svg?style=flat-square
 
 [status-url]: https://github.com/dferber90/eslint-plugin-meteor/pulse
-[status-image]: http://img.shields.io/badge/status-maintained-brightgreen.svg?style=flat-square
+[status-image]: http://img.shields.io/badge/status-maintained-e10079.svg?style=flat-square
 
-[semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[semantic-release-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [semantic-release]: https://github.com/semantic-release/semantic-release
 
-[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-image]: https://img.shields.io/badge/commitizen-friendly-e10079.svg?style=flat-square
 [commitizen]: http://commitizen.github.io/cz-cli/
