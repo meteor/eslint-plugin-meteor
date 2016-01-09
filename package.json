@@ -37,7 +37,7 @@
     "path-exists": "2.1.0"
   },
   "devDependencies": {
-    "babel": "5.8.29",
+    "babel": "6.3.13",
     "babel-eslint": "4.1.6",
     "colors": "1.1.2",
     "coveralls": "2.11.6",
