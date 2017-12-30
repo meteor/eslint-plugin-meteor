@@ -4,7 +4,6 @@ Meteor specific linting rules for ESLint
 
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coverage-image]][coverage-url]
-[![Code Climate][climate-image]][climate-url]
 [![Dependency Status][deps-image]][deps-url]
 
 [![Join the chat at https://gitter.im/dferber90/eslint-plugin-meteor][gitter-image]][gitter-url]
@@ -126,9 +125,6 @@ ESLint-plugin-Meteor is licensed under the [MIT License](http://www.opensource.o
 
 [coverage-url]: https://coveralls.io/github/dferber90/eslint-plugin-meteor?branch=master
 [coverage-image]: http://img.shields.io/coveralls/dferber90/eslint-plugin-meteor/master.svg?style=flat-square
-
-[climate-url]: https://codeclimate.com/github/dferber90/eslint-plugin-meteor
-[climate-image]: http://img.shields.io/codeclimate/github/dferber90/eslint-plugin-meteor.svg?style=flat-square
 
 [status-url]: https://github.com/dferber90/eslint-plugin-meteor/pulse
 [status-image]: http://img.shields.io/badge/status-maintained-e10079.svg?style=flat-square
