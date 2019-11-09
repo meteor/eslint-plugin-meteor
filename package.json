@@ -47,7 +47,7 @@
     "marked": "^0.6.0",
     "mocha": "~6.2.0",
     "nyc": "14.1.1",
-    "prettier": "~1.18.2",
+    "prettier": "~1.19.0",
     "readline-sync": "1.4.10",
     "semantic-release": "15.13.24",
     "validate-commit-msg": "~2.14.0"
