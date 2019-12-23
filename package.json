@@ -46,7 +46,7 @@
     "eslint-plugin-prettier": "~3.1.0",
     "marked": "^0.6.0",
     "mocha": "~6.2.0",
-    "nyc": "14.1.1",
+    "nyc": "15.0.0",
     "prettier": "~1.18.2",
     "readline-sync": "1.4.10",
     "semantic-release": "15.13.24",
