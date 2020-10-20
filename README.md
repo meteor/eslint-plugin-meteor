@@ -39,7 +39,6 @@ Create an `.eslintrc.json` file with this content at the root of your project:
 
 ```json
 {
-  "plugins": ["meteor"],
   "extends": ["plugin:meteor/recommended"]
 }
 ```
