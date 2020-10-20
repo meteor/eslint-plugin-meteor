@@ -81,9 +81,6 @@ To enable the recommended configuration use the extends property in your `.eslin
 
 ```json
 {
-  "plugins": [
-    "meteor"
-  ],
   "extends": ["eslint:recommended", "plugin:meteor/recommended"]
 }
 ```
