@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-meteor",
-  "version": "0.0.0-development",
+  "version": "7.4.0",
   "author": "Dominik Ferber <dominik.ferber+npm@gmail.com>",
   "description": "Meteor specific linting rules for ESLint",
   "main": "lib/index.js",
@@ -38,20 +38,20 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "coveralls": "^3.1.0",
+    "coveralls": "^3.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.13.0",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "mocha": "^8.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^9.1.1",
     "nyc": "^15.1.0",
-    "prettier": "^2.1.2",
+    "prettier": "^2.4.0",
     "readline-sync": "^1.4.10",
-    "semantic-release": "^17.2.2",
+    "semantic-release": "^17.4.7",
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3.7.0"
+    "eslint": ">=7.32.0"
   },
   "engines": {
     "node": ">=10"
