@@ -15,7 +15,7 @@ Meteor specific linting rules for ESLint
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-downloads-url]
 
-
+> This repository has been merged into Meteor main repository. You can [find it there](https://github.com/meteor/meteor/tree/devel/npm-packages/eslint-plugin-meteor).
 
 ![Example](https://raw.githubusercontent.com/dferber90/eslint-plugin-meteor/master/docs/media/epm.gif)
 
